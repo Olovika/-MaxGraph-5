@@ -1,4 +1,13 @@
 @media (max-width: 767.99px) {
+    :root {
+        --offset: 60px;
+    }
+
+    .grid {
+        grid-template-columns: auto;
+        row-gap: 40px;
+    }
+
     .header__container {
         flex-direction: column;
     }
@@ -11,19 +20,15 @@
         overflow-y: hidden;
     }
 
+    .hero__container {
+        padding-bottom: 15px;
+    }
+
     .hero__title {
         font-size: 70px;
         line-height: 84px;
     }
 
-    .grid {
-        grid-template-columns: auto;
-        row-gap: 40px;
-    }
-
-    :root {
-        --offset: 60px;
-    }
 
     .portfolio-item--reverse .portfolio-item__col:first-child {
         order: 1;
@@ -61,7 +66,7 @@
     .about__title {
         margin-bottom: 30px;
         font-size: 30px;
-        line-height: 44;
+        line-height: 44px;
     }
 
     .quot__text {
